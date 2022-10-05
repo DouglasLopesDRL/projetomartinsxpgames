@@ -1,0 +1,47 @@
+@charset "UTF8";
+
+body{
+    background-image: url("../imagens/fundo-personagens.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fundo01{
+    position: relative;
+    max-width: 1200px;
+    min-width: 300px;
+    max-height: 460px;
+    min-height: 300px;
+    background-color: rgba(0, 0, 0, 0.808);
+    margin: auto;
+    padding-bottom: 340px;
+}
+
+.fundops{
+    position: absolute;
+    width: 25%;
+    height: 70%;
+    background-color: blue;
+    left: 5%;
+    top: 20%;
+    background-image: url("../imagens/playstation-logo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fundops:hover{
+    background-image: url("../imagens/playstation-logo-action.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fundops:active{
+    background-image: url("../imagens/playstation-logo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
