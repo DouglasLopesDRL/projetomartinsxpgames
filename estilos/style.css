@@ -19,6 +19,7 @@ main{
 article{
     width: 20%;
     height: 60vh;
+    
 }
 
 .fundops{
@@ -26,16 +27,19 @@ article{
     background-image: linear-gradient(to top, #003791, #0b4bb1);
     top: 20%;
     left: 8%;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.801);
 }
 
 .fundops:hover{
     width: 20%;
     height: 61vh;
     background-image: linear-gradient(to top, #012f79, #0a50c2);
+    box-shadow: 6px 6px 12px rgba(0, 0, 255, 0.616);
 }
 
 .fundops:active{
     background-image: linear-gradient(to top, #061c3d, #2c7bfc);
+    box-shadow: 6px 6px 12px blue;
 }
 
 .logops{
