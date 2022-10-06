@@ -1,5 +1,9 @@
 @charset "UTF8";
 
+
+:root{
+    --cor01: #linear-gradient(to top, #007d00, #025702);
+}
 body{
     background-image: url("../imagens/fundo-personagens.jpg");
     background-repeat: no-repeat;
@@ -8,12 +12,12 @@ body{
     background-attachment: fixed;
 }
 main{
-    min-width: 400px;
-    max-width: 1200px;
+    position: relative;
+    width: 95vw;
     height: 95vh;
     margin: auto;
     background-color: rgba(80, 76, 76, 0.527);  
-    
+
 }
 
 article{
@@ -26,8 +30,23 @@ article{
     position: absolute;
     background-image: linear-gradient(to top, #003791, #0b4bb1);
     top: 20%;
-    left: 8%;
+    left: 6%;
     box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.801);
+}
+
+.fundoms{
+    position: absolute;
+    background: #007d00 url("../imagens/logoxbox.png") no-repeat center center;
+    background-size: 60%;
+    left: 35%;
+    top: 20%;   
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.801);
+}
+
+.fundoms:hover{
+    background: #058305 url("../imagens/logoxbox.png") no-repeat center center;
+    background-size: 65%;
+    box-shadow: 6px 6px 12px #02ff02b2;
 }
 
 .fundops:hover{
@@ -44,10 +63,11 @@ article{
 
 .logops{
     position: absolute;
-    width: 40%;
+    width: 45%;
     left: 29%;
     top: 35%;
 }
+
 
 
 /*
