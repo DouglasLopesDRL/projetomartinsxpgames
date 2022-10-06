@@ -7,41 +7,80 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-.fundo01{
-    position: relative;
+main{
+    min-width: 400px;
     max-width: 1200px;
-    min-width: 300px;
-    max-height: 460px;
-    min-height: 300px;
-    background-color: rgba(0, 0, 0, 0.808);
+    height: 95vh;
     margin: auto;
-    padding-bottom: 340px;
+    background-color: rgba(80, 76, 76, 0.527);  
+    
+}
+
+article{
+    width: 20%;
+    height: 60vh;
 }
 
 .fundops{
     position: absolute;
-    width: 25%;
-    height: 70%;
-    background-color: blue;
-    left: 5%;
+    background-image: linear-gradient(to top, #003791, #0b4bb1);
     top: 20%;
-    background-image: url("../imagens/playstation-logo.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    left: 8%;
 }
 
 .fundops:hover{
-    background-image: url("../imagens/playstation-logo-action.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 20%;
+    height: 61vh;
+    background-image: linear-gradient(to top, #012f79, #0a50c2);
 }
 
 .fundops:active{
-    background-image: url("../imagens/playstation-logo.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to top, #061c3d, #2c7bfc);
 }
+
+.logops{
+    position: absolute;
+    width: 40%;
+    left: 29%;
+    top: 35%;
+}
+
+
+/*
+.fundops{
+    position: absolute;
+    width: 20%;
+    padding-block-end: 100px;
+    background-image: linear-gradient(to top, #003791, #0b4bb1);
+    top: 20%;
+    
+}
+
+.fundops:hover{
+    background-image: linear-gradient(to top, #012f79, #0a50c2);
+    min-width: 305px;
+    min-height: 455px;
+    
+}
+
+.fundops:active{
+    background-image: linear-gradient(to top, #061c3d, #0161fc);
+}
+
+.logops{
+    position: absolute;
+    left: 29%;
+    top: 35%;
+}
+*/
+/*.fundoms{
+    position: absolute;
+    min-width: 300px;
+    min-height: 450px;
+    background-image: linear-gradient(to top, #007d00, #06a806);
+    left: 450px;
+    top: 100px;    
+}*/
+
+
 
