@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: black url(../imagens/pexels-fox-1038916.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    position: relative;
+    background-color: #012ea5;
+    width: 100vw;
+    box-shadow: 7px 7px 14px rgba(0, 0, 0, 0.815);
+}
+
+menu{
+    display: block;
+}
+
+menu > ul > li > a{
+    display: block;
+    background-color: rgba(56, 56, 56, 0.918);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid gainsboro;
+    
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+    background-image: url(../imagens/logomartinsxpgamesmenup.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+span#menu{
+    color: beige;
+    background-color: black;
+    width: 100vw;
+    height: 3.5vh;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+main{
+    background-color: rgba(46, 45, 45, 0.541);
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+}
+
+footer{
+    background-color: black;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
