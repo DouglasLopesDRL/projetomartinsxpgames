@@ -12,11 +12,16 @@ body{
 }
 
 header{
-    position: relative;
     background: #012ea5 url(../imagens/logomartinsxpgamesmenup.png) no-repeat center center;
     width: 100vw;
-    height: 13vh;
+    height: 18vh;
     box-shadow: 7px 7px 14px rgba(0, 0, 0, 0.815);
+}
+
+h1{
+    background: #012da500;
+    width: 100vw;
+    height: 14vh;
 }
 
 menu{
@@ -24,11 +29,10 @@ menu{
 }
 
 menu > ul > li{
-    margin-bottom: 22px;
+    margin-bottom: 1px;
 }
 
 menu > ul > li > a{
-    position: absolute;
     display: block;
     background-color: rgba(56, 56, 56, 0.918);
     text-decoration: none;
@@ -39,7 +43,6 @@ menu > ul > li > a{
     border: 1px solid rgba(220, 220, 220, 0.425);
     width: 100px;
     transform: translate(24px,-4px);
-    
 }
 
 menu > ul > li > a:hover{
@@ -51,7 +54,6 @@ span#menuh{
     color: beige;
     background-color: rgba(0, 0, 0, 0.712);
     cursor: pointer;
-    margin-top: 60px;
 }
 
 span#menuh:hover{
@@ -67,6 +69,7 @@ main{
 
 article{
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 article#nintendo{
