@@ -1,6 +1,11 @@
-/*let ps = document.getElementById("playStation")
-ps.addEventListener("click", clicoups)
+let menuhcell = document.getElementById("menuh")
+let menucell = document.getElementById("menu")
 
-function clicoups(){
-    ps.Window.open(url("../playstation.html"),'_blank')
-}*/
+function chamamenu(){
+    if(menucell.style.display == 'block'){
+        menucell.style.display = 'none'
+    } else{
+        menucell.style.display = 'block'
+    }
+}
+

@@ -13,16 +13,22 @@ body{
 
 header{
     position: relative;
-    background-color: #012ea5;
+    background: #012ea5 url(../imagens/logomartinsxpgamesmenup.png) no-repeat center center;
     width: 100vw;
+    height: 13vh;
     box-shadow: 7px 7px 14px rgba(0, 0, 0, 0.815);
 }
 
 menu{
-    display: block;
+    display: none;
+}
+
+menu > ul > li{
+    margin-bottom: 22px;
 }
 
 menu > ul > li > a{
+    position: absolute;
     display: block;
     background-color: rgba(56, 56, 56, 0.918);
     text-decoration: none;
@@ -30,38 +36,87 @@ menu > ul > li > a{
     font-weight: bold;
     text-align: center;
     padding: 10px;
-    border-top: 1px solid gainsboro;
+    border: 1px solid rgba(220, 220, 220, 0.425);
+    width: 100px;
+    transform: translate(24px,-4px);
     
 }
 
-h1{
-    text-align: center;
-    padding: 30px;
-    background-image: url(../imagens/logomartinsxpgamesmenup.png);
-    background-position: center center;
-    background-repeat: no-repeat;
+menu > ul > li > a:hover{
+    background-color: rgba(138, 136, 136, 0.918);
 }
 
-span#menu{
+
+span#menuh{
     color: beige;
-    background-color: black;
-    width: 100vw;
-    height: 3.5vh;
-    display: block;
-    text-align: center;
+    background-color: rgba(0, 0, 0, 0.712);
     cursor: pointer;
+    margin-top: 60px;
+}
+
+span#menuh:hover{
+    background-color: rgba(71, 67, 67, 0.863);
 }
 
 main{
-    background-color: rgba(46, 45, 45, 0.541);
+    background-color: rgba(46, 45, 45, 0.685);
     width: 90vw;
-    height: 90vh;
     margin: auto;
+    padding: 1px
+}
+
+article{
+    margin-bottom: 10px;
+}
+
+article#nintendo{
+    background: #e60012 url("../imagens/logonintendo.png") no-repeat center center;
+    background-size: 250px;
+    width: 100%;
+    height: 20vh;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.801);
+}
+
+article#nintendo:hover{
+    background: #fd0217 url("../imagens/logonintendo.png") no-repeat center center;
+    background-size: 265px;
+    box-shadow: 6px 6px 12px #fd0d21d5;
+    transition: background-color .5s, background-size .5s, box-shadow .9s;
+}
+
+article#xbox{
+    background: #007d00 url("../imagens/logoxbox.png") no-repeat center center;
+    background-size: 140px;
+    width: 100%;
+    height: 20vh;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.801);
+}
+
+article#xbox:hover{
+    background: #058305 url("../imagens/logoxbox.png") no-repeat center center;
+    background-size: 150px;
+    box-shadow: 6px 6px 12px #02ff02b2;
+    transition: background-color .5s, background-size .5s, box-shadow .9s;
+}
+
+article#playStation{
+    background: #003791 url("../imagens/logo-ps.png") no-repeat center center;
+    background-size: 110px;
+    width: 100%;
+    height: 20vh;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.801);
+}
+
+article#playStation:hover{
+    background: #053e99 url("../imagens/logo-ps.png") no-repeat center center;
+    background-size: 115px;
+    box-shadow: 6px 6px 12px #074ebecc;
+    transition: background-color .5s, background-size .5s, box-shadow .9s;
 }
 
 footer{
     background-color: black;
-    margin-top: 10px;
+    margin-top: 130px;
     padding: 8px;
     text-align: center;
     color: white;

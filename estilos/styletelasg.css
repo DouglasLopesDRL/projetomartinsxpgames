@@ -1,2 +1,9 @@
 @charset "UTF-8";
 
+span#menuh{
+    display: none;
+}
+
+menu > ul > li > a{
+    display: none;
+}
