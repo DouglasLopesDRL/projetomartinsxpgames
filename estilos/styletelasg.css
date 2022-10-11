@@ -1,9 +1,58 @@
 @charset "UTF-8";
 
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 160px;
+}
+
+h1{
+    width: 100px;
+    height: 125px;
+}
 span#menuh{
     display: none;
 }
 
+menu{
+    text-align: center;
+    display: block;
+   
+}
+li{
+    display: inline-block;
+    margin: -.3%;
+    text-align: center;
+}
+
 menu > ul > li > a{
-    display: none;
+    background-color: rgba(56, 56, 56, 0.918);
+    width: 150px;
+}
+
+article#nintendo{
+    background-size: 22%;
+}
+
+article#nintendo:hover{
+    background-size: 24%;
+}
+
+article#xbox{
+    background-size: 12%;
+}
+
+article#xbox:hover{
+    background-size: 13%;
+}
+
+article#playStation{
+    background-size: 9%;
+}
+
+article#playStation:hover{
+    background-size: 10%;
 }
